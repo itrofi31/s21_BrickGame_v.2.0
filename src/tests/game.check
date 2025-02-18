@@ -1,0 +1,10 @@
+#suite createGame
+
+#test createGame_1
+
+initGame(); 
+
+ck_assert_ptr_nonnull(tetg);
+ck_assert_ptr_nonnull(tetg->player);
+ck_assert_ptr_nonnull(tetg->figure);
+freeGame(tetg);

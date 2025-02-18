@@ -1,0 +1,16 @@
+#suite count_score
+#test count_score
+
+initGame();  
+tetg->pause = 0;
+tetg->high_score = 0;
+tetg->score = 700;
+
+int line_fill = 18;
+for(int i = 0; i < tetg->field->width; i++){
+	tetg->field->blocks[line_fill][i].b = 1;
+}
+countScore(tetg);
+
+ck_assert_int_eq(tetg->score,800);
+freeGame(tetg);
