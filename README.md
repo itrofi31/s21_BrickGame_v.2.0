@@ -4,8 +4,8 @@
 
 BrickGame v2.0 is a console-based Tetris and Snake games developed in C and C++ with QT. It features classic Tetris and Snake gameplay with additional mechanics
 such as score counting, level progression, and high score tracking.
-![desktop](desktop_game.png)
-![game](game.png)
+![desktop](src/dvi/desktop_game.png)
+![game](src/dvi/game.png)
 
 ## Snake Game Features
 
@@ -108,6 +108,6 @@ such as score counting, level progression, and high score tracking.
 A diagram showing the FSM used in the game logic:
 
 - snake
-  ![FSM_snake](fsm_snake.png)
+  ![FSM_snake](src/dvi/fsm_snake.png)
 - tetris
-  ![FSM_tetirs](fsm_tetris.png)
+  ![FSM_tetirs](src/dvi/fsm_tetris.png)
